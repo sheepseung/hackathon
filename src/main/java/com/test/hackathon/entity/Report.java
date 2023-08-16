@@ -18,7 +18,7 @@ public class Report {
     @Column(columnDefinition = "TEXT")
     private String url;
 
-    @Column
+    @Column(columnDefinition = "TEXT")
     private String reportBody;
 
     public Report() {

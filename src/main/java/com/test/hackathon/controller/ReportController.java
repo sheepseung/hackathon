@@ -29,7 +29,7 @@ public class ReportController {
     }
 
     @PostMapping("new")
-    public Report createUrl(@RequestParam("url") String url, @RequestParam("reportBody") String reportBody) {
+    public Report createUrl(@RequestParam("url") String url, @RequestParam("report_body") String reportBody) {
         Report report = Report.builder()
                 .url(url)
                 .reportBody(reportBody)
